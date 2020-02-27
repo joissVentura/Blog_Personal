@@ -1,4 +1,7 @@
 {
-    "version": 2,
-    "builds": [{ "src": "*.php", "use": "now-php-extra" }]
+  "functions": {
+    "index.php": {
+      "runtime": "now-php@0.0.7"
+    }
   }
+}
